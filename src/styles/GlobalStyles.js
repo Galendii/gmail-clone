@@ -20,6 +20,7 @@ body{
     --outlined: #F1F3F4;
     --blue: #1A73E8;
     --green: #188038;
+    --outlined-hover: rgba(126, 126, 126,0.15);
 }
 `;
 
