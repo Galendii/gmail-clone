@@ -1,4 +1,4 @@
-#Gmail Replica
+# Gmail Replica
 
 The main objective of this replica is to practice some frontend skills. This project has no comercial purpose and it is open for anyone to recreate it.
 
