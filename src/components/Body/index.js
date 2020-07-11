@@ -1,15 +1,17 @@
 import React from "react";
-import { Container } from "./styles";
+import { Container, MailWrapper } from "./styles";
 import SideMenu from "../SideMenu";
+import MailBar from "../MailBar";
+import MailList from "../MailList";
 
 export default function Body() {
   return (
     <Container>
       <SideMenu />
-      {/*<MailWrapper>
+      <MailWrapper>
         <MailBar />
-        <MailBox /> 
-      </MailWrapper>*/}
+        <MailList />
+      </MailWrapper>
     </Container>
   );
 }

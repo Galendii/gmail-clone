@@ -31,7 +31,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   background: var(--primary);
-  width: 270px;
+  width: 18%;
 `;
 
 export const MailActions = styled.div`
@@ -166,9 +166,10 @@ export const ChatBox = styled.div`
   padding-top: 10px;
 `;
 export const MainChat = styled.div`
+  margin: 0 12px 5px 12px;
+  border-bottom: 1px solid var(--outlined);
   > span {
     font-size: 14px;
-    padding-left: 12px;
   }
   > ul {
     list-style: none;
@@ -176,7 +177,7 @@ export const MainChat = styled.div`
     li {
       display: flex;
       align-items: center;
-      padding: 5px 0 5px 12px;
+      padding: 5px 0 5px 0px;
       position: relative;
       > span {
         font-size: 12px;
