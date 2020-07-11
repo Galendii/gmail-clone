@@ -24,13 +24,15 @@ export const Container = styled.div`
         display: inline;
         > svg {
           padding: 0 10px;
-          &:hover {
-            fill: var(--black);
-          }
         }
       }
       > span {
         display: none;
+      }
+    }
+    svg {
+      &:hover {
+        fill: var(--black);
       }
     }
     box-shadow: inset 1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, 0.3),
