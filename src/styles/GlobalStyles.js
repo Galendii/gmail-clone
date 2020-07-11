@@ -15,12 +15,14 @@ body{
 :root{
     --primary: #fff;
     --red: #D93025;
+    --dark-gray: #85888B;
     --black: #202124;
     --gray: #7E7E7E;
     --outlined: #F1F3F4;
     --blue: #1A73E8;
     --green: #188038;
     --outlined-hover: rgba(126, 126, 126,0.15);
+    --red-hover:rgba(217, 48, 37,0.3)
 }
 `;
 
