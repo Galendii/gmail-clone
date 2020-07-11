@@ -9,6 +9,22 @@ body{
     width:100vw;
     height: 100vh;
     font-family: 'Roboto','RobotoDraft',Helvetica,Arial,sans-serif;
+
+
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background:var(--outlined-hover);
+
 }
 
 
