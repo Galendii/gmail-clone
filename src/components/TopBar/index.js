@@ -55,7 +55,7 @@ export default function TopBar() {
           <SearchButton>
             <SearchIcon />
           </SearchButton>
-          <SearchInput />
+          <SearchInput placeholder="Pesquisar e-mail" />
           <InputItem>
             <CloseButton className="close">
               <CloseIcon />

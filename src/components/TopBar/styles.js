@@ -98,7 +98,7 @@ export const ListButton = styled(IconButton)`
 
 export const SearchInput = styled.input`
   border: none;
-  margin: 5px 15px;
+  margin: 5px 15px 5px 0px;
   height: 100%;
   width: 100%;
   background: transparent;
